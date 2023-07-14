@@ -1,0 +1,121 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+.face{
+    background: rgb(20, 29, 1);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 15%;
+    border: 1px solid black;
+    
+}
+.eyes{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    padding-top: 20%;
+}
+
+.left{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 254, 254);
+    margin: auto;
+    border-radius: 50%;
+    
+}
+.right{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 254, 254);
+    margin: auto;
+    border-radius: 50%;
+
+}
+.puple{
+    display: flex;
+    margin: auto;
+    margin-top: -55px;
+}
+.l{
+    height: 25px;
+    width: 25px;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.r{
+    height: 25px;
+    width: 25px;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.nose1{
+    background: rgb(245, 242, 242);
+    border: 1px solid rgb(252, 249, 249);
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.nose{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    margin-top: -24%;
+    justify-content: space-between;
+}
+.lnose{
+    height: 25px;
+    width: 25px;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.rnose{
+    height: 25px;
+    width: 25px;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    margin-top: 5%;
+}
+.lear{
+    background: rgb(255, 255, 255);
+    height: 120px;
+    width: 80px;
+    border: 1px solid black ;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -82%;
+    margin-left: 10%;
+}
+.rear{
+    background: rgb(255, 255, 255);
+    height: 120px;
+    width: 80px;
+    border: 1px solid black ;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -82%;
+    margin-left: 2%;
+}
